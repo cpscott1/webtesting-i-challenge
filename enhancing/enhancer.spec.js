@@ -28,5 +28,9 @@ describe('enhancer.js', () => {
       expect(enhancer.fail({ enhancement: 18 }).enhancement).toBe(17);
     })
   })
-  it.todo('durability or enhancement should decrease item');
+<<<<<<< HEAD
+  it.todo('durability or enhancement should decrease');
+=======
+  it.todo('durability or enhancement should decrease');
+>>>>>>> f48956f3e8f9f31ea74083c2b3cdcf6075fb3b11
 })
